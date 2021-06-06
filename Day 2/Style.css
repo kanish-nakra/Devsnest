@@ -1,0 +1,16 @@
+#heading{
+  margin-top: 0px;
+  text-align: center;
+  background-color: rgb(243, 245, 145);
+}
+
+#data{
+  margin-left: 100px;
+  border: 1px solid rgb(24, 20, 3);
+  margin-right:100px;
+  padding-left:15px;
+}
+
+body{
+  background-color: rgb(253, 242, 223);
+}

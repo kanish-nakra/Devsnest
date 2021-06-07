@@ -1,0 +1,8 @@
+2021/06/08-01:13:57.419 34f8 Reusing MANIFEST D:\Devsnest\web scrapper\driver_data\Default\Local Storage\leveldb/MANIFEST-000001
+2021/06/08-01:13:57.426 34f8 Recovering log #7
+2021/06/08-01:13:57.427 34f8 Level-0 table #9: started
+2021/06/08-01:13:57.508 34f8 Level-0 table #9: 15734 bytes OK
+2021/06/08-01:13:57.563 34f8 Recovering log #9
+2021/06/08-01:13:57.564 34f8 Reusing old log D:\Devsnest\web scrapper\driver_data\Default\Local Storage\leveldb/000009.log 
+2021/06/08-01:13:57.567 34f8 Delete type=0 #7
+2021/06/08-01:13:57.568 34f8 Delete type=2 #10

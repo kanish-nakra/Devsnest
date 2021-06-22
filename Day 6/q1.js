@@ -4,8 +4,8 @@
 // console.log(is_array([1, 2, 4, 0]));
 // false
 // True
-
 //solution
+
 function is_array(input) {
   return Array.isArray(input);
 }

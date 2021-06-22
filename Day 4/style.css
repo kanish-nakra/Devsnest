@@ -1,23 +1,21 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background-color: beige;
 }
 
-
-.outer-circle{
-  border: 13px solid rgb(113, 55, 221) ;
+.outer-circle {
+  border: 13px solid rgb(113, 55, 221);
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  position:relative;
+  position: relative;
   margin: auto;
   background-color: rgb(201, 245, 245);
-
 }
 
-.in-circle{
+.in-circle {
   border: 3px solid rgb(18, 8, 75);
   height: 7px;
   width: 7px;
@@ -27,11 +25,10 @@
   left: 135px;
   top: 134px;
   z-index: 5;
-
-
+  background-color: rgb(18, 8, 75);
 }
 
-.cont{
+.cont {
   border: 2px solid beige;
   height: 100vh;
   width: 100%;
@@ -40,7 +37,7 @@
   align-items: center;
 }
 
-.second{
+.second {
   border-left: 2px solid red;
   height: 130px;
   /* width: 10px; */
@@ -51,16 +48,18 @@
   animation-duration: 60s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-
 }
 
 @keyframes a {
-  0%  {transform: rotate(0deg);}
-  100% {transform: rotate(360deg);}
-
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.minute{
+.minute {
   border-left: 2px solid rgb(92, 223, 103);
   height: 115px;
   /* width: 10px; */
@@ -71,9 +70,10 @@
   animation-duration: 3600s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  /* animation: 60s infinite linear; */
 }
 
-.hour{
+.hour {
   border-left: 2px solid rgb(199, 105, 50);
   height: 100px;
   /* width: 10px; */
@@ -86,7 +86,8 @@
   animation-timing-function: linear;
 }
 
-.minute, .second, .hour {
+.minute,
+.second,
+.hour {
   transform-origin: bottom;
-
 }

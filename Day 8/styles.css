@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(231, 106, 106);
+  border: solid black;
+  display: grid;
+  grid-template-columns: repeat(10,auto) ;
+  grid-template-rows: repeat(10,auto);
+  
+}
+
+.grid-item{
+  border: 0.01px solid rgb(238, 129, 129);
+}
+
+.grid-item:hover{
+  background-color: brown;
+	color: whitesmoke;
+	transform: scale(1);
+}

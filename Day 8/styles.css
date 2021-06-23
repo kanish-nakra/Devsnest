@@ -14,22 +14,33 @@
 }
 
 .box{
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   background-color: rgb(231, 106, 106);
-  border: solid black;
+  border: solid rgb(229, 128, 128);
   display: grid;
-  grid-template-columns: repeat(10,auto) ;
-  grid-template-rows: repeat(10,auto);
+  grid-template-columns: repeat(15,auto) ;
+  grid-template-rows: repeat(15,auto);
   
 }
 
 .grid-item{
   border: 0.01px solid rgb(238, 129, 129);
+
 }
 
 .grid-item:hover{
-  background-color: brown;
+  background-color: rgb(211, 91, 91);
 	color: whitesmoke;
 	transform: scale(1);
+  /* border: none; */
+}
+
+.selected{
+  background-color: aliceblue;
+  border: none;
+}
+
+.selected:hover{
+  background-color: aliceblue;
 }
